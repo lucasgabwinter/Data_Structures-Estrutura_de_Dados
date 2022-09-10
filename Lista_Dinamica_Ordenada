@@ -105,15 +105,16 @@ void maior(){
 	NODE *p;
 	p = primeiro;
 	int x = -9999, i=0;
-	int count = 0;
+	int aux = 0;
 	while(p != NULL){
 		if(p->data >= x){
 			x = p->data;
+			aux=i;
 		}
 		p = p->next;
 		i++;
 	}
-	printf("O maior elemento da lista e o %d que esta no indice %d\n", x, i);
+	printf("O maior elemento da lista e o %d que esta no indice %d\n", x, aux);
 }
 
 
@@ -121,15 +122,16 @@ void menor(){
 	NODE *p;
 	p = primeiro;
 	int x = 9999, i=0;
-	int count = 0;
+	int aux = 0;
 	while(p != NULL){
 		if(p->data <= x){
 			x = p->data;
+			aux=i;
 		}
 		p = p->next;
 		i++;
 	}
-	printf("O menor elemento da lista e o %d que esta no indice %d\n", x, i);
+	printf("O menor elemento da lista e o %d que esta no indice %d\n", x, aux);
 }
 
 
