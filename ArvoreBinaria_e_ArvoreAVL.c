@@ -316,9 +316,6 @@ void ImplementaArvoreAVL(PtrNoArvore *raizAVL, FILE *arq){
 int main(int argc, const char * argv[]){
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	// usando o argc
-	printf("Trabalho de Estrutura de Dados.\n");
-	printf("Luca Aguiar Costa Carvalho e Lucas Gabriel Winter.\n");
-	printf("Profa. Maria Adelina Silva Brito.\n");
 	printf("Numero de parametros fornecidos: %d\n", argc);
 	//checa se a quantidade de parâmetros informada é válida
 	//consideramos a possibilidade de uma entrada a mais no caso de usar o Dev-C++
