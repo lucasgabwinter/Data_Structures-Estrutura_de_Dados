@@ -194,9 +194,6 @@ void consulta(int n, FILE* entrada, FILE* saida){
 
 int main(int argc, const char * argv[]){
 	// usando o argc 
-	printf("Trabalho de Estrutura de Dados.\n");
-	printf("Luca Aguiar Costa Carvalho e Lucas Gabriel Winter.\n");
-	printf("Profa. Maria Adelina Silva Brito.\n");
 	printf("Numero de parametros fornecidos: %d\n", argc);
 	//checa se a quantidade de parâmetros informada é válida
 	if(argc!= 3 && argc!= 4) {
